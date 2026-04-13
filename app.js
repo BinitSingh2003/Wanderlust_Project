@@ -22,7 +22,7 @@ const LocalStrategy=require("passport-local");
 const User=require("./models/user.js");
 
 //Very important cause error 
-
+dns.setServer(["1.1.1.1" ,"8.8.8.8"]);
 
 
 
